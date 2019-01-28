@@ -1,0 +1,8 @@
+# AutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.apache.servicecomb.springboot.starter.gateway.ScbDiscoveryClientConfiguration,\
+  org.apache.servicecomb.springboot.starter.gateway.ScbRibbonConfiguration
+org.springframework.cloud.client.discovery.EnableDiscoveryClient=\
+  org.apache.servicecomb.springboot.starter.gateway.ScbDiscoveryClientConfiguration
+org.springframework.cloud.netflix.ribbon.RibbonClient=\
+  org.apache.servicecomb.springboot.starter.gateway.ScbRibbonConfiguration
