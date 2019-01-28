@@ -1,0 +1,16 @@
+remote:
+  home: http://localhost:9090
+ribbon:
+  eureka:
+    enabled: false
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: host_route
+          uri: lb://helloservice
+          predicates:
+            - Path=/hello/**
