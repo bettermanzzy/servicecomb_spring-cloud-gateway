@@ -2,7 +2,7 @@ package gateway;
 
 import org.apache.servicecomb.provider.rest.common.RestSchema;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.gateway.webflux.ProxyExchange;
+//import org.springframework.cloud.gateway.webflux.ProxyExchange;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import reactor.core.publisher.Mono;

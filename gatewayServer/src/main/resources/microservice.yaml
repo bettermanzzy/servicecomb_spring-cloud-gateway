@@ -1,7 +1,7 @@
 APPLICATION_ID: helloworld
 service_description:
   name: gatewayserver
-  version: 0.0.1
+  version: 0.0.5
 #  environment: development
 servicecomb:
   service:
