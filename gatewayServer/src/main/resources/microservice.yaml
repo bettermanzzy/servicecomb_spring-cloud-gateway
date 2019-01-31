@@ -1,12 +1,9 @@
 APPLICATION_ID: helloworld
 service_description:
   name: gatewayserver
-  version: 0.0.5
+  version: 0.0.1
 #  environment: development
 servicecomb:
   service:
     registry:
       address: http://127.0.0.1:30100
-  rest:
-    address: 0.0.0.0:9999
-
